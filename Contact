@@ -1,0 +1,30 @@
+<?php
+include("header1.html")
+?>
+<div class="contact">
+<div class="box">
+<h5>ADDRESS</h5>
+<p>No-12,abc Street,Dindigul.</p>
+</div>
+<div class="box">
+<h5>PHONE NUMBER</h5>
+<p>1234567890</p>
+</div>
+<div class="box">
+<h5>EMAIL</h5>
+<p>abcrestaurant@gmail.com</p>
+</div>
+<div class="location-box">
+ <div class="box">
+      <h5>LOCATION</h5>
+      <p>Find us on Google Maps below.</p>
+    </div>
+  </div>
+
+<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.251565205058!2d76.96656217504544!3d11.019742689144241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85856649291ad%3A0x24965df44a3ade46!2sCodebind%20Technologies!5e0!3m2!1sen!2sin!4v1749373635413!5m2!1sen!2sin" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<?php
+include("footer.html")
+?>
