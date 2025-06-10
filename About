@@ -1,0 +1,25 @@
+<?php
+include("header1.html")
+?>
+<div class="images">
+<div class="about">
+<div class="pizza">
+<marquee direction="left"><img src="images/images (1).jpg" ></marquee>
+</div>
+<div class="burger">
+<marquee direction="right"><img src="images/download.jpg"></marquee>
+</div>
+<div class="cake">
+<marquee direction="left"><img src="images/img1.jpg"></marquee>
+</div>
+<div class="icecream">
+<marquee direction="right"><img src="images/img2.jpg"></marquee>
+</div>
+</div>
+</div>
+
+
+<?php
+include("footer.html")
+?>
+
