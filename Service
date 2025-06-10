@@ -1,0 +1,67 @@
+<?php
+include("header1.html")
+?>
+<div class="service">
+<table border="2px solid black" height="500px" width="1000px">
+<tr>
+<th>S.NO</th>
+<th>DAYS</th>
+<th>BREAKFAST</th>
+<th>LUNCH</th>
+<th>DINNER</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>MONDAY</td>
+<td>Pongal</td>
+<td>Rice and Sambar</td>
+<td>Dosa</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>TUESDAY</td>
+<td>Idli</td>
+<td>Rice and Gravy</td>
+<td>Chapathi</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>WEDNESDAY</td>
+<td>Dosa</td>
+<td>Rice and Dal</td>
+<td>Poori</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>THURSDAY</td>
+<td>Onion Dosa</td>
+<td>Fried Rice</td>
+<td>Noodles</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>FRIDAY</td>
+<td>Idli</td>
+<td>Mushroom Fried Rice</td>
+<td>Dosa</td>
+</tr>
+<td>6.</td>
+<td>SATURDAY</td>
+<td>Bread Toast</td>
+<td>Schezean Fried Rice</td>
+<td>Parotta</td>
+</tr>
+<tr>
+<td>7.</td>
+<td>SUNDAY</td>
+<td>Roast</td>
+<td>Veg Briyani</td>
+<td>Idli</td>
+</tr>
+</tr>
+</table>
+</div>
+<?php
+include("footer.html")
+?>
+
