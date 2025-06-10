@@ -1,0 +1,58 @@
+<?php
+include("header1.html")
+?>
+<div style="display: flex; gap: 99px; justify-content: center; margin-top: 60px;">
+    <div style="width: 300px;">
+        <img src="images/breakfast.jpg" style="height:300px; width:300px; border-radius:8px;" alt="Breakfast">
+        <h3 style="margin: 10px 0 5px 0;">BREAKFAST</h3>
+        <p style="margin: 0 height:40px;">Time: 7:00 AM – 10:00 AM</p>
+        <p style="font-size: 18px; color: #000071">
+            Start your morning with dishes like idli, dosa, and fresh fruit juice.
+        </p>
+    </div>
+
+    <div style="width: 300px;">
+        <img src="images/biryani.jpg" style="height:300px; width:300px; border-radius:8px;" alt="Lunch">
+        <h3 style="margin: 10px 0 5px 0;">Lunch</h3>
+        <p style="margin: 0 height:40px;">Time: 12:00 PM – 2:30 PM</p>
+        <p style="font-size: 18px; color: #000071;">
+            Enjoy biryani, sambar rice, roti, and vegetable curries.
+        </p>
+    </div>
+
+    <div style="width: 300px;">
+        <img src="images/Screenshot 2025-06-06 225219.png" style="height:300px; width:300px; border-radius:8px;" alt="Dinner">
+        <h3 style="margin: 10px 0 5px 0;">Dinner</h3>
+        <p style="margin: 0 height:40px;">Time: 7:30 PM – 9:30 PM</p>
+        <p style="font-size: 18px; color: #000071;">
+            Light meals like chapati, rice, dal, and curd to end your day.
+        </p>
+    </div>
+  </div>
+  <div style="display: flex; gap: 60px; justify-content: center; margin-top: 60px;">
+
+    <div style="width: 300px;">
+        <img src="images/coffee-tea.jpg" style="height:300px; width:300px; border-radius:8px;" alt="Tea and Coffee">
+        <h3 style="margin: 10px 0 5px 0;">Tea & Coffee</h3>
+        <p style="margin: 0 height:40px;">Time: 10:30 AM – 11:30 AM & 4:00 PM – 5:00 PM</p>
+        <p style="font-size: 18px; color: #000071;">
+            Filter coffee, masala chai, and light snacks served fresh.
+        </p>
+    </div>
+
+    <div style="width: 300px;">
+        <img src="images/dessert.jpg" style="height:300px; width:300px; border-radius:8px;" alt="Dessert">
+        <h3 style="margin: 10px 0 5px 0;">Dessert</h3>
+        <p style="margin: 0 height:40px">Available with Lunch & Dinner</p>
+        <p style="font-size: 18px; color: #000071;">
+            Try gulab jamun, kesari, or ice cream to sweeten your meal.
+        </p>
+    </div>
+
+</div>
+
+<?php
+include("footer.html")
+?>
+
+
