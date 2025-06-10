@@ -1,0 +1,45 @@
+<?php
+include("header1.html")
+?>
+<div class="register">
+<form>
+<label>FIRST NAME:</label>
+<input type="text"><br><br><br>
+<label>LAST NAME:</label>
+<input type="text"><br><br><br>
+<label>AGE:</label>
+<input type="text"><br><br><br>
+<label>EMAIL:</label>
+<input type="text"><br><br><br>
+<label>PASSWORD:</label>
+<input type="password"><br><br><br>
+<label>GENDER:</label><br><br>
+<input type="radio">
+<label>Male</label><br><br>
+<input type="radio">
+<label>Female</label><br><br>
+<input type="radio">
+<label>Others</label><br><br><br>
+<label>NATIONALITY:</label>
+<select>
+<option value="1">India</option>
+<option value="2">New Zewland</option>
+<option value="3">Australia</option>
+</select><br><br><br>
+<label>PERSONAL INFORMATION:</label><br><br><br>
+<fieldset>
+<legend>My personal Info</legend><br><br><br>
+<label>DOB:</label>
+<input type="date"><br><br><br>
+<label>PHONE NUMBER:</label>
+<input type="text"><br><br><br>
+</fieldset>
+<label>ADDRESS:</label><br><br><br>
+<textarea></textarea><br><br><br>
+<center><input type="submit"></center>
+</form>
+</div>
+<?php
+include("footer.html")
+?>
+
