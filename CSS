@@ -1,0 +1,192 @@
+/* CSS Document */
+html,body
+{
+margin:0;
+height:0;
+background-color: #95CAFF;
+}
+
+h1
+{
+font-family:"Times New Roman", Times, serif;
+color: #0000BF;
+}
+
+.header {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 40px;                 
+  margin-top: 40px;
+  flex-wrap: wrap;           
+}
+.img {
+  width: 30vw;
+  height: 30vh;
+  background-image: url(images/image.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.slogan {
+  max-width: 600px;
+  font-size: 28px;
+  color: #000;
+  text-align: left;
+   font-family: "Times New Roman", Times, serif;
+}
+
+nav
+{
+padding:10xp 0;
+text-align:center;
+background-color:#0000FF;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 120px;
+}
+
+nav ul li {
+  display: inline;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 18px 16px;
+  display: inline-block;
+}
+
+.footer
+{
+background-color:#FFC6C6;
+height:50px;
+width:300px;
+margin-top:30px;
+margin-left:auto;
+margin-right: auto;
+text-align:center;
+justify-content:center;
+}
+
+
+.image{
+height:200px;
+width:1000px;
+float:left;}
+
+
+
+.images
+{
+background-image: url(images/1234.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  widows:100%;
+  padding:40px 0;
+  min-height:100vh;
+  }
+
+.image-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+ .image-row {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center horizontally */
+  gap: 30px;
+}
+
+.about {
+  margin-top: 60px;
+  margin-left:90px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 60px;
+}
+
+.about img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.service
+{
+background-color: #AEFBC6;
+padding: 30px;
+ display: flex;
+  justify-content: center;
+  margin-top:50px;
+  margin-left:50px;
+  margin-right:50px;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  background-color: #C1E0FF;
+ 
+}
+
+.contact .box {
+ margin-top:40px;
+text-align:center;
+background-color: #ECECFF;
+  border: 8px solid #007BFF;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  height:100px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+.location-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.register
+{
+
+background-color:#B9B9FF;
+padding: 90px 0; 
+}
+.register form
+{
+padding-left:350px;
+}
+.register label
+{
+padding-left:24px;
+}
+.regitser input
+{
+padding-left:20px;
+} 
+
